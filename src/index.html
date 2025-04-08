@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./tailwind.js"></script>
+    <script src="./sweetalert.min.js"></script>
+    <style>
+        .swal-wide{
+            width:600px !important;
+        }
+    </style>
+    <style type="text/tailwindcss">
+        @theme {
+          --color-clifford: #da373d;
+        }
+    </style>
+</head>
+
+<body class="box-content">
+    <div class="grid grid-cols-1 gap-1">
+        <div class="relative">
+            <div class="min-w-dvw p-5 text-center absolute" id="message"></div>
+        </div>
+        <div class="flex">
+            <div class="w-32 flex-none">
+                <div class="flex flex-col gap-1 p-2">
+                    <button class="text-neutral-100 rounded-md bg-blue-500 shadow-blue-500/50 shadow-lg" onclick="showTabCredential();">credential</button>
+                    <button class="text-neutral-100 rounded-md bg-blue-500 shadow-blue-500/50 shadow-lg" onclick="showTabList();">list</button>
+                    <button class="text-neutral-100 rounded-md bg-blue-500 shadow-blue-500/50 shadow-lg" onclick="showTabCreate();">create</button>
+                </div>
+            </div>
+            <div id="content" class="p-3 w-200 flex-initial bg-orange-50">
+                <div class="tab" id="tab-credential"></div>
+                <div class="tab" id="tab-list">list</div>
+                <div class="tab" id="tab-create">create</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src='./shared.js'></script>
+<script src='./message.js'></script>
+<script src='./tabCredential.js'></script>
+<script src='./tabList.js'></script>
+<script src='./tabCreate.js'></script>
+<script src='./script.js'></script>
+
+</html>
