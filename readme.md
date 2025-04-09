@@ -1,9 +1,10 @@
-1. rename credential.example.json under src folder to credential.json
+1. open credential page
 
 2. fill out values
-```
-{ "baseUrlKey": "", "clientId": "", "clientSecret": "" }
-```
+- baseUrlKey
+- clientId
+- clientSecret
+
 
 3. baseUrlKey can be fould in your SFMC API address like below
 ```

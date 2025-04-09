@@ -1,6 +1,6 @@
 const messageElm = document.getElementById("message");
 messageElm.style.zIndex = -1000;
-tabPleaseWaitElm.style.display = "none";
+messageElm.style.display = "none";
 
 function showMessage(message = "Please wait") {
     messageElm.innerHTML = `<div class="p-10 bg-blue-100 text-black-500">${message}</div>`;
