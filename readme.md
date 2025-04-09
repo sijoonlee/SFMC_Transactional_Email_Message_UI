@@ -17,3 +17,5 @@ https://<baseUrlKey>.rest.marketingcloudapis.com
 Note
 - sweetalert v2 is used: https://sweetalert.js.org
 - tailwindcss is used: https://tailwindcss.com
+- https://dev.to/erikhofer/build-and-publish-a-multi-platform-electron-app-on-github-3lnd
+- https://dev.to/github/the-githubtoken-in-github-actions-how-it-works-change-permissions-customizations-3cgp

@@ -1,6 +1,7 @@
 // See the Electron documentation for details on how to use preload scripts:
 // https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts
 
+/* commented out - electron doesn't read file from current directory when it becomes executable
 const {contextBridge,ipcRenderer} = require("electron");
 
 contextBridge.exposeInMainWorld(
@@ -25,3 +26,4 @@ contextBridge.exposeInMainWorld(
         }
     }
 )
+*/

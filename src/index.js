@@ -39,6 +39,7 @@ const createWindow = () => {
   });
 };
 
+/* commented out - electron doesn't read file from current directory when it becomes executable
 ipcMain.on("askToRead", (event, file_name) => {
 	fs.readFile(path.join(__dirname, file_name),'utf8', (error, data) => {
 		mainWindow.webContents.send("sendReadContent", file_name, data);
@@ -48,6 +49,7 @@ ipcMain.on("askToRead", (event, file_name) => {
 ipcMain.on("askToWrite", (event, file_name, contents) => {
 	fs.writeFile(path.join(__dirname, file_name), contents, () => {});
 })
+*/
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
