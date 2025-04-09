@@ -19,17 +19,8 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "publishers": [
-        {
-          "name": "@electron-forge/publisher-github",
-          "config": {
-            "repository": {
-              "owner": "Sijoon Lee",
-              "name": "sfmc-transactional-message-ui"
-            }
-          }
-        }
-      ]
+      "makers": [],
+      "publishers": []
     }
   },
   "dependencies": {
