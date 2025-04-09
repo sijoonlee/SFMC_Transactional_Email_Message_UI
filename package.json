@@ -17,12 +17,6 @@
     "email": "shijoonlee@gmail.com"
   },
   "license": "MIT",
-  "config": {
-    "forge": {
-      "makers": [],
-      "publishers": []
-    }
-  },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1"
   },
