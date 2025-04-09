@@ -15,7 +15,7 @@ tabCredentialElm.innerHTML = `
     `;
 
 const inputBaseUrlKey = document.getElementById("BaseUrlKey");
-inputBaseUrlKey.addEventListener('input', (evt) => { baseUrl = evt.target.value; });
+inputBaseUrlKey.addEventListener('input', (evt) => { baseUrlKey = evt.target.value; });
 const inputClientId = document.getElementById("ClientId");
 inputClientId.addEventListener('input', (evt) => { clientId = evt.target.value; });
 const inputClientSecret = document.getElementById("ClientSecret");
