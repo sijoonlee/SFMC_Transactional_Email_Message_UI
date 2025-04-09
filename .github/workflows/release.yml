@@ -3,6 +3,9 @@ on:
   release:
     type: [created]
 
+permissions:
+  contents: write
+
 jobs:
 
   publish_on_linux:
